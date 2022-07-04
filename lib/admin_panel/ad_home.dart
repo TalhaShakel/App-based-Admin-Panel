@@ -62,7 +62,7 @@ class A_shair extends StatelessWidget {
         "p_name": name.text.trim(),
         "poetry": poetry.text.trim(),
         "unwan": unwan.text.trim(),
-        "like": 0,
+        "like": [],
         "uid": {}
       }).then((value) {
         poetry.clear();
@@ -224,7 +224,7 @@ class A_kata extends StatelessWidget {
         "p_name": name.text.trim(),
         "poetry": poetry.text.trim(),
         "unwan": unwan.text.trim(),
-        "like": 0,
+        "like": [],
         "uid": {}
       }).then((value) {
         poetry.clear();
@@ -365,7 +365,7 @@ class A_gazal extends StatelessWidget {
         "p_name": name.text.trim(),
         "poetry": poetry.text.trim(),
         "unwan": unwan.text.trim(),
-        "like": 0,
+        "like": [],
         "uid": {}
       }).then((value) {
         poetry.clear();
